@@ -12,6 +12,11 @@ TODO until next meetup (when):
 
 each group-member installs a functional copy of jupyter-notebook and pytorch.
 
+important addition: To train a network using the Graphical Processor Unit (GPU) 
+you need to install CUDA. each group-member should try to make it possible to 
+train a network using their GPU as it will be multiple times faster even on a 
+very old GPU compared to a CPU. 
+
 each group-member makes a ipynb file and downloads the following datasets and models:
 * Cifar-10 dataset 
 * Resnet model for pytorch
