@@ -2,20 +2,20 @@
 hyperparameter experiments
 
 software to install: 
+* virtualenv 
+* jupyter notebook 
 
-virtualenv 
-jupyter notebook 
 python packages:
-pytorch
+* pytorch
 
 TODO until next meetup (when): 
 
 each group-member installs a functional copy of jupyter-notebook and pytorch.
 
 each group-member makes a ipynb file and downloads the following datasets and models:
-Cifar-10 dataset 
-Resnet model for pytorch
-Densenet model for pytorch
+* Cifar-10 dataset 
+* Resnet model for pytorch
+* Densenet model for pytorch
 
 each group-member experiments with training these networks and remembers the average amount of training time. 
 
