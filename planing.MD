@@ -3,6 +3,7 @@
 Tasks:
 * decide on which computer to use depending on time it takes to train the networks. 
 * build a cyclical learning function 
+* find out how to change learning-rate/weight-decay/momentum on optimizer after creation
 * draw a sketch of file structure for saving experiments 
 * give each experiment relating to a hyperparameter a descriptor in form of a number 
 
