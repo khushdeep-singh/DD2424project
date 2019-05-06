@@ -1,0 +1,140 @@
+page 2; 2 Related Work: 
+A recent paper questions the use of regularization by weight decay and dropout (Hernández-Garcı́a
+& König, 2018). One of the findings of this report is that the total regularization needs to be in
+balance for a given dataset and architecture. Our experiments suggest that their perspective on regu-
+larization is limited – they only add regularization by data augmentation to replace the regularization
+by weight decay and dropout without a full study of regularization.
+
+comments: It is noted that Leslie does not use Data Augmentation and instead uses Weight Decay and possibly dropout. 
+question: Should we try to add dropout to the model we downloaded from the internet when making our experiments? 
+
+page 3; 3 The Unreasonable...: 
+The author says something about the generalization error carrying important information about overfitting. In figure 1b we see the Generalization error progressing over multiple itteration. It is unclear what learning rate was applied when calculating this graph. Also it is unclear to me what this information is telling us about the overfitting. If there is a huge difference between the validation-loss and the test-loss that means that we are overfitting I guess. In the beginning the generalization error is going up because the test-loss is going down faster than the validation-loss. When the test-loss pans out the validation-loss starts to catch up.i
+
+page 3; Remark 1
+test/validation loss 	is used to provide insight on the training process
+final test accuracy 	is used for comparing performance 
+
+page 3; Figure 2:
+This is an experiment on how the complexity of the model (I guess how many layers there are) has an impact on the performance of the network. To much and we will overfit to little layers and we will underfit.
+
+comment:  we could do experiments on the complexity of the model as well and use generalization error as an indicator as they did here. 
+Also it might be possible to use the generalization error as an indicator when examining other hyperparameters as well. Maybe list all important indicators for the outcome of the experiments to be evaluated on: 
+
+page 4; Remark2 
+Achieving horizontal test loss is the goal of hyperparameter tuning. 
+
+page 4; 
+"Well begun is half done” because substantial time can be saved by attending to the test
+loss early in the training.
+
+page 4; Figure 3 
+Underfitting is characterized by a continuously decreasing test loss; not horizontally plateauing. 
+
+page 4; 3.2 
+Test loss decreasing more rapidly in the beginning is an early indicator that the hyperparameter settings will yield a better result. 
+
+  
+page 5; 3.3 Overfitting 
+
+page 6; 4.1 Cyclical learning rates and...
+Large learning rates has regularizing properties. 
+LR range test:
+* maximum lr for CL when validation accuracy begins to diverge! Choose smaller values when training with constant LR. 
+
+page 7; SuperConvergence 
+Super convergence depend on Cyclical Learning 
+properties of SC:
+*
+*
+* Combination of Curriculum learning and simulated annealing 
+
+
+page 8; Batch Size
+small batchsize has regularizing effects. Batchsize has nonlinear relationship to number of epochs and number of iterations (I'm assuming we are training with CL here) 
+* Constant number of epochs penalizes large batch sizes
+* Constant number of iterations favors large batch sizes too much.
+This is because iterations become fever in each epoch when the batch size increases and viceversa. 
+
+page 8; Remark 4:
+BatchSize must be examined in conjunction with the execution time of the training. Number of epochs/iterations should be large enough to maximize the final test performance but no larger. 
+
+page 8: Cyclical Momentum 
+Momentum and LearningRate are highly co-dependent. LearningRate is considered the most important hyperparameter to tune - which means momentum also is an important hyperparameter.  
+Both LearningRate and Momentum should be set as large as possible without causing instabilities. 
+Momentum has similar effects on weight update as learning rate. 
+
+page 9; Remark 5:
+Optimal momentum value(s) will improve network training. 
+Optimal training: Increasing cyclical learningrate + decreasing cyclical momentum. Decreasing momentum allows the learningrate to become large in the early to middle parts of training. 
+With constant LearningRate a constant Momentum acts as a pseudo increasing learning rate -> speeds up the training. (can we show this in any manner? It would be interresting to visualize) 
+
+page 10: 
+Decreasing cyclical momentum + increasing learningrate = best constant momentum 
+but the former stabilizes the training to allow larger learning rates. 
+
+page 11; Weight Decay
+Weight Decay should have a constant value.
+
+
+page 12; Remark 6:
+Amount of regularization must be balanced depending on dataset and architecture, weight-decay is important to balance agains regularization due to LearningRate. Choose other regularization first (dropout ration, stochastic depth etc) then change weight decay value when experimenting with maximum learning rate and stepsize values. 
+
+
+
+Choosing:
+* WeightDecay: 
+	# grid-search over bisection of exponent e.g 10^-4 and 10^-3 choose 10^-3.5 = 3.16 x 10^-4. Bisect best of these three etc. 
+	# train with "middle" WD value, stop when accuracy plateaus. Start the other searches from this point with higher and lower WD
+	  values. This will speed up training. 
+
+Properties:
+* LR - learningrate: 
+  large learning rate = regularizing property 
+* BatchSize:
+  small batchsize = regularizing property 
+* Momentum has similar effects on weight update as learning rate. 
+* Decreasing momentum + Increasing LR improves test accuradcy and makes training more robust to large learning rates. 
+* Large momentum helps escape saddle-points but can hurt the final convergence -> momentum should be reduced at the end of training. 
+* papers says cyclical momentum has small improvement over only decreasing momentum.
+* cyclical momentum is only beneficial in combination with cyclical learning-rate (page 10) And decrease when LR increases. The 
+  performance is almost independent of the minimum momentum value.  
+* So far no-one has encountered benefits from varying the weight decay during training - it should be kept at constant value. Grid search is proposed for finding good weight decay values differences in performance can be seen early during training.    
+ Proposal: Combine gridsearch (weight decay) with combined CLR and CM.
+* In general: Small datasets/architecture req large values for weight decay and vicecersa. 
+* Optimal Weight Decay is different when searching using constant learning rate compared to learning rate range. 
+
+ 
+Indicators: 
+* generalization error compared with the test/validation accuracy
+* how does the speed of convergence to learning a dataset relate to the end accuracy of the model? 
+* what is the optimal order of examining and changing hyperparameters.
+	does the order impact the final outcome? 
+	which hyperparameters are more and less codependent? 
+	list  possible dual-combinations of changing hyperparameters and run experiments changing these pairs at the same time. 
+	can we automate the analysis of the validation/test accuracy compared to the test accuracy and generalization error?  
+	is there an alternative way of presenting the results of our experiments?
+* Continuously decreasing test loss; not horizontally plateauing is an indicator of underfitting. 
+* Increasing validation/test accuracy is a sign of overfitting.
+* test loss decreasing more rapidly in the beginning is an indicator of model having higher final accuracy. 
+* Overfitting can also be a local behaviour of specific ranges of learning-rates (see Figure 1) 
+
+
+
+Propsed Experiments:
+
+(1)   Proving evidence of SuperConvergence on multiple different networks:
+	* ResNet, Wide-ResNet, DenseNet, Inception-ResNet
+
+(2)   Replicate Section 4.4 Find good value of weight decay with the LR range test 
+
+
+(3)   Examining the impact of different batch sizes following the execution premisses on page8. 128, 256, 519, 1024. 
+      Larger batch sizes requres lowering of other regularizing effects.
+      Questions: is there any reason to extend the training-time for larger batch sizes until signs of overfitting occurs to compare the end accuracy between different batch-sizes? Yes definitely and it is not a big problem either. 
+
+(4)   Examining the momentum in relation to the learning rate. Which one should we choose first? Make experiments where we choose the
+      learningrate first and then the momentum and viceversa. Also show that momentum range test is not useful for finding an optimal momentum (FIgure 7b) 
+	* Make a visualiztion of what is propsed in Remark 5 constant LR , constant Momentum acting as a pseudoincreasing learning rate. 
+	* Also show the equal results of decreasing cycmom + inc LR = best constant momentum 
+
