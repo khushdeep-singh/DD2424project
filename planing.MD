@@ -12,3 +12,14 @@ Hyperparameters to perform experiments on. Order listed is order of application.
 * Cyclic-momentum [page 8-11]  compared to Constant-momentum 
 * Weight Decay    [page 11-13]
 
+### for Monday (6 May 2019)
+
+Tasks:
+* Reread the paper "A DISCIPLINED APPROACH TO NEURAL NETWORK HYPER-PARAMETERS: PART 1 – LEARNING RATE, BATCH SIZE, MOMENTUM, AND WEIGHT DECAY"
+* Write down the order and details of the experiments
+* If we have time find a proper DenseNet
+
+### for Tuesday (7 May 2019) 
+
+Tasks:
+* Call each other at 16:00 and write functions for Cyclical Momentum and Learning Rate Range. 
