@@ -37,6 +37,17 @@ I created a overleaf document for the report and added a bibfile with references
 
 ### 14 May 2019 
 
+I ran a couple of tests for SuperConvergence. It's hard to know if the convergence is fast or not because I need to compare to regular training somehow, but first I would like to get the result they have in the paper. 
+
+Now, the problem I see is that the training accuracy hits 100% before I even do annealing around 1200 iterations which is weird becaus in the paper they run more than 10k iterations with the same settings I use (excluding some hyperparameters which values were not given in the paper weight-decay and momentum) 
+
+I also changed the ResNets BatchNorm2ds momentum from 0.1 to 0.95 which is used in the SuperConvergence paper. The plot becomes much less jittery than before. 
+
+Now what is the reason that I don't get the same result? Not enough regularization I would guess. We don't want to overfit that early and the only way to not overfit is to lower the learning-rate right? That's what they do with "constant" learningrate. With constant learningrate they lower the learningrate when the loss evens out for the validation set. 
+
+So what I have left to do is change the parameters the paper didn't give us i.e the weightdecay and the momentum. 
+
+
 ### things to try for the SuperConvergence 
 
 higher maximum learning rate 
