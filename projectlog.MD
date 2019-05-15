@@ -40,7 +40,11 @@ I created a overleaf document for the report and added a bibfile with references
 ### things to try for the SuperConvergence 
 
 higher maximum learning rate 
+
 add the whole validation set
+
 change the weightdecay (higher value for more regulariztion) 
-do fewer itteartions 
+
+do fewer iterations 
+
 
