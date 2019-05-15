@@ -45,8 +45,9 @@ I also changed the ResNets BatchNorm2ds momentum from 0.1 to 0.95 which is used 
 
 Now what is the reason that I don't get the same result? Not enough regularization I would guess. We don't want to overfit that early and the only way to not overfit is to lower the learning-rate right? That's what they do with "constant" learningrate. With constant learningrate they lower the learningrate when the loss evens out for the validation set. 
 
-So what I have left to do is change the parameters the paper didn't give us i.e the weightdecay and the momentum. 
+I did one experiment this evening with only 1150 iterations and it yielded an accuracy of 84% which is the best so far with Super Convergence. 
 
+So what I have left to do is change the parameters the paper didn't give us i.e the weightdecay and the momentum. 
 
 ### things to try for the SuperConvergence 
 
