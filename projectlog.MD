@@ -34,3 +34,13 @@ Khushdeep got the responsibility to build a function for testing best value of m
 Andreas would continue to do his experiments. 
 
 I created a overleaf document for the report and added a bibfile with references to the two papers we have used so far. I also cleaned up the code even more and 
+
+### 14 May 2019 
+
+### things to try for the SuperConvergence 
+
+higher maximum learning rate 
+add the whole validation set
+change the weightdecay (higher value for more regulariztion) 
+do fewer itteartions 
+
