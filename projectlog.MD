@@ -49,6 +49,14 @@ I did one experiment this evening with only 1150 iterations and it yielded an ac
 
 So what I have left to do is change the parameters the paper didn't give us i.e the weightdecay and the momentum. 
 
+### 17 May 2019 
+
+So I started training a piecewise constant learning-rate. So far I did 1000, 100, 100, 300 and dividing the learning-rate by 10 after each set or itterations. So far, I don't have a divergence but I don't see any improvement after 1100 iterations. Tomorrow I will try to run it for a longer time (maybe 1000) iterations at learningrate 0.001 and see if I can catch any divergence or improvement in the validation accuracy. 
+
+I also found out how to create two networks with the same initial weights. torch.manual_seed(seed). 
+
+For the Constant Learning Rate I used the same momentum and weight-decay I found best results for when doing the streamline hyperparameter setup. 0.95 momentum and 1e-9 weight-decay. 
+
 ### things to try for the SuperConvergence 
 
 higher maximum learning rate 
