@@ -1,0 +1,7 @@
+nohup: ignoring input
+/home/superraketen/DD2424project/resnet.py:37: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+  init.kaiming_normal(m.weight)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   120  100    65  100    55    139    118 --:--:-- --:--:-- --:--:--   257100   120  100    65  100    55    139    118 --:--:-- --:--:-- --:--:--   256
+Shutdown scheduled for Fri 2019-05-17 19:37:13 UTC, use 'shutdown -c' to cancel.

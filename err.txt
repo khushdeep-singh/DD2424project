@@ -1,0 +1,121 @@
+nohup: ignoring input
+/home/superraketen/DD2424project/resnet.py:37: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+  init.kaiming_normal(m.weight)
+Traceback (most recent call last):
+  File "assignmentforsaturdayAndreas.py", line 243, in <module>
+    (acc, loss) = range_test(model, rt_optimizer, data_loader, loss_xent, 0, 1, 10000/(1<<i), batch_size)
+  File "assignmentforsaturdayAndreas.py", line 142, in range_test
+    prediction = net.forward(images)
+  File "/home/superraketen/DD2424project/resnet.py", line 105, in forward
+    out = self.layer1(out)
+  File "/opt/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 493, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/opt/anaconda3/lib/python3.7/site-packages/torch/nn/modules/container.py", line 92, in forward
+    input = module(input)
+  File "/opt/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 493, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/superraketen/DD2424project/resnet.py", line 74, in forward
+    out = self.bn2(self.conv2(out))
+  File "/opt/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 493, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/opt/anaconda3/lib/python3.7/site-packages/torch/nn/modules/batchnorm.py", line 83, in forward
+    exponential_average_factor, self.eps)
+  File "/opt/anaconda3/lib/python3.7/site-packages/torch/nn/functional.py", line 1697, in batch_norm
+    training, momentum, eps, torch.backends.cudnn.enabled
+RuntimeError: CUDA out of memory. Tried to allocate 64.00 MiB (GPU 0; 11.17 GiB total capacity; 3.46 GiB already allocated; 56.94 MiB free; 97.77 MiB cached)
+
+
+RUN 2:
+nohup: ignoring input
+/home/superraketen/DD2424project/resnet.py:37: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+  init.kaiming_normal(m.weight)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   148  100    93  100    55    287    169 --:--:-- --:--:-- --:--:--   456
+
+
+RUN 3:
+nohup: ignoring input
+/home/superraketen/DD2424project/resnet.py:37: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+  init.kaiming_normal(m.weight)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   118  100    63  100    55    148    130 --:--:-- --:--:-- --:--:--   278
+Shutdown scheduled for Tue 2019-05-14 03:48:36 UTC, use 'shutdown -c' to cancel.
+nohup: ignoring input
+/home/superraketen/DD2424project/resnet.py:37: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+  init.kaiming_normal(m.weight)
+Traceback (most recent call last):
+  File "assignmentforsaturdayAndreas.py", line 275, in <module>
+    (acc, loss, valacc) = trainFunc(model, nn.CrossEntropyLoss(), optimizer, data_loader, val_loader, epochs, min_lr, max_lr, validation_interval=50)
+  File "assignmentforsaturdayAndreas.py", line 110, in trainFunc
+    for epoch in range(n_epochs):
+TypeError: 'float' object cannot be interpreted as an integer
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   119  100    64  100    55    138    119 --:--:-- --:--:-- --:--:--   258
+Shutdown scheduled for Tue 2019-05-14 21:13:41 UTC, use 'shutdown -c' to cancel.
+
+
+RUN 3
+nohup: ignoring input
+/home/superraketen/DD2424project/resnet.py:37: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+  init.kaiming_normal(m.weight)
+Traceback (most recent call last):
+  File "assignmentforsaturdayAndreas.py", line 275, in <module>
+    (acc, loss, valacc) = trainFunc(model, nn.CrossEntropyLoss(), optimizer, data_loader, val_loader, epochs, min_lr, max_lr, validation_interval=50)
+  File "assignmentforsaturdayAndreas.py", line 110, in trainFunc
+    for epoch in range(n_epochs):
+TypeError: 'float' object cannot be interpreted as an integer
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   148  100    93  100    55    329    195 --:--:-- --:--:-- --:--:--   524
+Shutdown scheduled for Tue 2019-05-14 21:27:50 UTC, use 'shutdown -c' to cancel.
+nohup: ignoring input
+/home/superraketen/DD2424project/resnet.py:37: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+  init.kaiming_normal(m.weight)
+Traceback (most recent call last):
+  File "assignmentforsaturdayAndreas.py", line 266, in <module>
+    (acc, loss) = range_test(model, rt_optimizer, data_loader, loss_xent, 0, 1, 10000/2**i, batch_size)
+  File "assignmentforsaturdayAndreas.py", line 193, in range_test
+    plt.savefig(save_file)
+  File "/opt/anaconda3/lib/python3.7/site-packages/matplotlib/pyplot.py", line 689, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/opt/anaconda3/lib/python3.7/site-packages/matplotlib/figure.py", line 2094, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/opt/anaconda3/lib/python3.7/site-packages/matplotlib/backend_bases.py", line 2075, in print_figure
+    **kwargs)
+  File "/opt/anaconda3/lib/python3.7/site-packages/matplotlib/backends/backend_agg.py", line 521, in print_png
+    cbook.open_file_cm(filename_or_obj, "wb") as fh:
+  File "/opt/anaconda3/lib/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/opt/anaconda3/lib/python3.7/site-packages/matplotlib/cbook/__init__.py", line 407, in open_file_cm
+    fh, opened = to_filehandle(path_or_file, mode, True, encoding)
+  File "/opt/anaconda3/lib/python3.7/site-packages/matplotlib/cbook/__init__.py", line 392, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+FileNotFoundError: [Errno 2] No such file or directory: './/rangetest3/acc_bs128_minlr0_maxlr1_iterations10000.0_momentum0_weightdecy0.png'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   148  100    93  100    55    354    209 --:--:-- --:--:-- --:--:--   564
+Shutdown scheduled for Tue 2019-05-14 22:37:14 UTC, use 'shutdown -c' to cancel.
+nohup: ignoring input
+/home/superraketen/DD2424project/resnet.py:37: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+  init.kaiming_normal(m.weight)
+Traceback (most recent call last):
+  File "assignmentforsaturdayAndreas.py", line 274, in <module>
+    (acc, loss, valacc) = trainFunc(model, nn.CrossEntropyLoss(), optimizer, data_loader, val_loader, min_lr, max_lr, epochs, validation_interval=50)
+  File "assignmentforsaturdayAndreas.py", line 119, in trainFunc
+    mode='triangular', cycle_momentum=False)
+  File "/opt/anaconda3/lib/python3.7/site-packages/torch/optim/lr_scheduler.py", line 596, in __init__
+    super(CyclicLR, self).__init__(optimizer, last_epoch)
+  File "/opt/anaconda3/lib/python3.7/site-packages/torch/optim/lr_scheduler.py", line 26, in __init__
+    self.step(last_epoch)
+  File "/opt/anaconda3/lib/python3.7/site-packages/torch/optim/lr_scheduler.py", line 52, in step
+    for param_group, lr in zip(self.optimizer.param_groups, self.get_lr()):
+  File "/opt/anaconda3/lib/python3.7/site-packages/torch/optim/lr_scheduler.py", line 627, in get_lr
+    scale_factor = x / self.step_ratio
+ZeroDivisionError: float division by zero
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   120  100    65  100    55    152    129 --:--:-- --:--:-- --:--:--   281100   120  100    65  100    55    152    129 --:--:-- --:--:-- --:--:--   281
+Shutdown scheduled for Wed 2019-05-15 14:59:28 UTC, use 'shutdown -c' to cancel.

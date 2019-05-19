@@ -1,0 +1,7 @@
+nohup: ignoring input
+nohup: ignoring input
+Terminated
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   120  100    65  100    55    134    113 --:--:-- --:--:-- --:--:--   247
+Shutdown scheduled for Fri 2019-05-17 15:36:33 UTC, use 'shutdown -c' to cancel.

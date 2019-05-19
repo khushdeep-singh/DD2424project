@@ -1,0 +1,4477 @@
+using device cuda:0
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Linear
+ResNet
+Files already downloaded and verified
+Files already downloaded and verified
+time after 0 iterations: 0.31810617446899414 seconds
+time after 100 iterations: 20.36736512184143 seconds
+time after 200 iterations: 40.18451237678528 seconds
+time after 300 iterations: 60.14074683189392 seconds
+time after 400 iterations: 80.06383466720581 seconds
+time after 500 iterations: 100.02138352394104 seconds
+time after 600 iterations: 119.99093294143677 seconds
+time after 700 iterations: 139.96796226501465 seconds
+time after 800 iterations: 160.01286578178406 seconds
+time after 900 iterations: 179.97766709327698 seconds
+time after 1000 iterations: 199.88809275627136 seconds
+time after 1100 iterations: 219.93712377548218 seconds
+time after 1200 iterations: 239.8922243118286 seconds
+time after 1300 iterations: 259.85745763778687 seconds
+time after 1400 iterations: 279.842050075531 seconds
+time after 1500 iterations: 299.8427436351776 seconds
+time after 1600 iterations: 319.7824430465698 seconds
+time after 1700 iterations: 339.6706247329712 seconds
+time after 1800 iterations: 359.6147634983063 seconds
+time after 1900 iterations: 379.57570934295654 seconds
+time after 2000 iterations: 399.56868505477905 seconds
+time after 2100 iterations: 419.5146460533142 seconds
+time after 2200 iterations: 439.4799392223358 seconds
+time after 2300 iterations: 459.4442708492279 seconds
+time after 2400 iterations: 479.35344409942627 seconds
+time after 2500 iterations: 499.2285900115967 seconds
+time after 2600 iterations: 519.141402721405 seconds
+time after 2700 iterations: 539.0958995819092 seconds
+time after 2800 iterations: 559.0206890106201 seconds
+time after 2900 iterations: 579.044513463974 seconds
+time after 3000 iterations: 598.9900779724121 seconds
+time after 3100 iterations: 618.9325606822968 seconds
+time after 3200 iterations: 638.787561416626 seconds
+time after 3300 iterations: 658.592297077179 seconds
+time after 3400 iterations: 678.4907524585724 seconds
+time after 3500 iterations: 698.3960750102997 seconds
+time after 3600 iterations: 718.2710692882538 seconds
+time after 3700 iterations: 738.1922209262848 seconds
+time after 3800 iterations: 758.1183676719666 seconds
+time after 3900 iterations: 778.0321383476257 seconds
+time after 4000 iterations: 797.849044084549 seconds
+time after 4100 iterations: 817.7330300807953 seconds
+time after 4200 iterations: 837.7512881755829 seconds
+time after 4300 iterations: 857.6263363361359 seconds
+time after 4400 iterations: 877.5005011558533 seconds
+time after 4500 iterations: 897.4220473766327 seconds
+time after 4600 iterations: 917.3593966960907 seconds
+time after 4700 iterations: 937.2733082771301 seconds
+time after 4800 iterations: 957.1679489612579 seconds
+time after 4900 iterations: 977.0772795677185 seconds
+time after 5000 iterations: 996.978529214859 seconds
+time after 5100 iterations: 1016.8664906024933 seconds
+time after 5200 iterations: 1036.760097026825 seconds
+time after 5300 iterations: 1056.701412677765 seconds
+time after 5400 iterations: 1076.615086555481 seconds
+time after 5500 iterations: 1096.4642646312714 seconds
+time after 5600 iterations: 1116.3475592136383 seconds
+time after 5700 iterations: 1136.3131258487701 seconds
+time after 5800 iterations: 1156.2139842510223 seconds
+time after 5900 iterations: 1176.0640494823456 seconds
+time after 6000 iterations: 1195.9748935699463 seconds
+time after 6100 iterations: 1215.948049545288 seconds
+time after 6200 iterations: 1235.9050793647766 seconds
+time after 6300 iterations: 1255.8138329982758 seconds
+time after 6400 iterations: 1275.7230997085571 seconds
+time after 6500 iterations: 1295.6374616622925 seconds
+time after 6600 iterations: 1315.6007685661316 seconds
+time after 6700 iterations: 1335.4699382781982 seconds
+time after 6800 iterations: 1355.35977768898 seconds
+time after 6900 iterations: 1375.3139216899872 seconds
+time after 7000 iterations: 1395.214694261551 seconds
+time after 7100 iterations: 1414.9999442100525 seconds
+time after 7200 iterations: 1434.9444494247437 seconds
+time after 7300 iterations: 1454.8611488342285 seconds
+time after 7400 iterations: 1474.7707359790802 seconds
+time after 7500 iterations: 1494.6282255649567 seconds
+time after 7600 iterations: 1514.5648474693298 seconds
+time after 7700 iterations: 1534.5116226673126 seconds
+time after 7800 iterations: 1554.4192452430725 seconds
+time after 7900 iterations: 1574.3155229091644 seconds
+time after 8000 iterations: 1594.1087396144867 seconds
+time after 8100 iterations: 1614.0026760101318 seconds
+time after 8200 iterations: 1633.9015135765076 seconds
+time after 8300 iterations: 1653.7925391197205 seconds
+time after 8400 iterations: 1673.722335577011 seconds
+time after 8500 iterations: 1693.662100315094 seconds
+time after 8600 iterations: 1713.5250887870789 seconds
+time after 8700 iterations: 1733.3435943126678 seconds
+time after 8800 iterations: 1753.2584891319275 seconds
+time after 8900 iterations: 1773.1386141777039 seconds
+time after 9000 iterations: 1793.1644504070282 seconds
+time after 9100 iterations: 1813.0767617225647 seconds
+time after 9200 iterations: 1832.9831156730652 seconds
+time after 9300 iterations: 1852.9345321655273 seconds
+time after 9400 iterations: 1872.8249216079712 seconds
+time after 9500 iterations: 1892.697458267212 seconds
+time after 9600 iterations: 1912.5984876155853 seconds
+time after 9700 iterations: 1932.4954183101654 seconds
+time after 9800 iterations: 1952.4536819458008 seconds
+time after 9900 iterations: 1972.372840642929 seconds
+time after 10000 iterations: 1992.038562297821 seconds
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Linear
+ResNet
+Files already downloaded and verified
+Files already downloaded and verified
+time after 0 iterations: 0.19420957565307617 seconds
+time after 100 iterations: 38.13962244987488 seconds
+time after 200 iterations: 75.68443584442139 seconds
+time after 300 iterations: 113.52905297279358 seconds
+time after 400 iterations: 151.24860072135925 seconds
+time after 500 iterations: 189.315260887146 seconds
+time after 600 iterations: 226.82829761505127 seconds
+time after 700 iterations: 264.811231136322 seconds
+time after 800 iterations: 302.4034378528595 seconds
+time after 900 iterations: 340.3403730392456 seconds
+time after 1000 iterations: 377.8104829788208 seconds
+time after 1100 iterations: 416.0163195133209 seconds
+time after 1200 iterations: 453.7692115306854 seconds
+time after 1300 iterations: 491.554053068161 seconds
+time after 1400 iterations: 529.1690263748169 seconds
+time after 1500 iterations: 566.8904414176941 seconds
+time after 1600 iterations: 604.4391889572144 seconds
+time after 1700 iterations: 642.3175332546234 seconds
+time after 1800 iterations: 680.1451086997986 seconds
+time after 1900 iterations: 718.0754563808441 seconds
+time after 2000 iterations: 755.8645169734955 seconds
+time after 2100 iterations: 793.8283469676971 seconds
+time after 2200 iterations: 831.150936126709 seconds
+time after 2300 iterations: 868.6386933326721 seconds
+time after 2400 iterations: 906.2197360992432 seconds
+time after 2500 iterations: 944.0281839370728 seconds
+time after 2600 iterations: 981.6135022640228 seconds
+time after 2700 iterations: 1019.4041380882263 seconds
+time after 2800 iterations: 1056.9328112602234 seconds
+time after 2900 iterations: 1094.7004721164703 seconds
+time after 3000 iterations: 1132.1898005008698 seconds
+time after 3100 iterations: 1169.8715541362762 seconds
+time after 3200 iterations: 1207.3587806224823 seconds
+time after 3300 iterations: 1245.0623393058777 seconds
+time after 3400 iterations: 1282.4914507865906 seconds
+time after 3500 iterations: 1320.2326211929321 seconds
+time after 3600 iterations: 1357.7468066215515 seconds
+time after 3700 iterations: 1395.4667210578918 seconds
+time after 3800 iterations: 1432.9691507816315 seconds
+time after 3900 iterations: 1470.6008377075195 seconds
+time after 4000 iterations: 1508.098908662796 seconds
+time after 4100 iterations: 1545.7697455883026 seconds
+time after 4200 iterations: 1583.1686532497406 seconds
+time after 4300 iterations: 1620.7607073783875 seconds
+time after 4400 iterations: 1658.1046719551086 seconds
+time after 4500 iterations: 1695.7738726139069 seconds
+time after 4600 iterations: 1733.200924873352 seconds
+time after 4700 iterations: 1770.7502579689026 seconds
+time after 4800 iterations: 1808.0711421966553 seconds
+time after 4900 iterations: 1845.3714818954468 seconds
+time after 5000 iterations: 1882.4405720233917 seconds
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Linear
+ResNet
+Files already downloaded and verified
+Files already downloaded and verified
+time after 0 iterations: 0.45731496810913086 seconds
+time after 100 iterations: 70.79125380516052 seconds
+time after 200 iterations: 141.42356848716736 seconds
+time after 300 iterations: 212.02606678009033 seconds
+time after 400 iterations: 282.5351917743683 seconds
+time after 500 iterations: 352.88359332084656 seconds
+time after 600 iterations: 427.1513786315918 seconds
+time after 700 iterations: 502.18191623687744 seconds
+time after 800 iterations: 576.4710466861725 seconds
+time after 900 iterations: 647.2190706729889 seconds
+time after 1000 iterations: 721.9032366275787 seconds
+time after 1100 iterations: 796.5772094726562 seconds
+time after 1200 iterations: 867.1788909435272 seconds
+time after 1300 iterations: 937.6639447212219 seconds
+time after 1400 iterations: 1007.8069307804108 seconds
+time after 1500 iterations: 1078.2312960624695 seconds
+time after 1600 iterations: 1148.3255920410156 seconds
+time after 1700 iterations: 1218.505287885666 seconds
+time after 1800 iterations: 1288.6978561878204 seconds
+time after 1900 iterations: 1358.8923664093018 seconds
+time after 2000 iterations: 1429.0244164466858 seconds
+time after 2100 iterations: 1499.110678434372 seconds
+time after 2200 iterations: 1569.2109651565552 seconds
+time after 2300 iterations: 1639.3777079582214 seconds
+time after 2400 iterations: 1709.5597372055054 seconds
+time after 2500 iterations: 1778.9680025577545 seconds
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Linear
+ResNet
+Files already downloaded and verified
+Files already downloaded and verified
+
+
+
+
+RUN 2:
+using device cuda:0
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Linear
+ResNet
+Files already downloaded and verified
+Files already downloaded and verified
+time after 0 iterations: 0.9590833187103271 seconds
+time after 100 iterations: 137.38343143463135 seconds
+time after 200 iterations: 275.53837609291077 seconds
+time after 300 iterations: 412.57683849334717 seconds
+time after 400 iterations: 548.5596535205841 seconds
+time after 500 iterations: 684.6206126213074 seconds
+time after 600 iterations: 820.6277351379395 seconds
+time after 700 iterations: 956.7182810306549 seconds
+time after 800 iterations: 1092.7390382289886 seconds
+time after 900 iterations: 1228.8099336624146 seconds
+time after 1000 iterations: 1364.8997197151184 seconds
+time after 1100 iterations: 1500.9882640838623 seconds
+time after 1200 iterations: 1637.7525029182434 seconds
+time after 1250 iterations: 1705.366342306137 seconds
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Linear
+ResNet
+Files already downloaded and verified
+Files already downloaded and verified
+starting training
+time passed after training 0 epochs is 79.37423276901245 seconds
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Linear
+ResNet
+Files already downloaded and verified
+Files already downloaded and verified
+starting training
+time passed after training 0 epochs is 74.88247227668762 seconds
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Linear
+ResNet
+Files already downloaded and verified
+Files already downloaded and verified
+starting training
+time passed after training 0 epochs is 70.2404158115387 seconds
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Linear
+ResNet
+Files already downloaded and verified
+Files already downloaded and verified
+starting training
+time passed after training 0 epochs is 67.63310766220093 seconds
+{"success":false,"error":"Only one test text message is allowed per day.","quotaRemaining":0}ok
+
+
+RUN 3:
+using device cuda:0
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Linear
+ResNet
+Files already downloaded and verified
+Files already downloaded and verified
+starting training
+time passed after training 0 epochs is 79.23566818237305 seconds
+time passed after training 1 epochs is 158.54183626174927 seconds
+time passed after training 2 epochs is 237.7737398147583 seconds
+time passed after training 3 epochs is 317.0570468902588 seconds
+time passed after training 4 epochs is 396.34149050712585 seconds
+time passed after training 5 epochs is 475.50835943222046 seconds
+time passed after training 6 epochs is 554.7803862094879 seconds
+time passed after training 7 epochs is 634.0295495986938 seconds
+time passed after training 8 epochs is 713.3150932788849 seconds
+time passed after training 9 epochs is 792.6200287342072 seconds
+time passed after training 10 epochs is 871.866304397583 seconds
+time passed after training 11 epochs is 950.9826781749725 seconds
+time passed after training 12 epochs is 1030.3582563400269 seconds
+time passed after training 13 epochs is 1109.7019217014313 seconds
+time passed after training 14 epochs is 1188.9338583946228 seconds
+time passed after training 15 epochs is 1268.2661933898926 seconds
+time passed after training 16 epochs is 1347.4233417510986 seconds
+time passed after training 17 epochs is 1426.7661199569702 seconds
+time passed after training 18 epochs is 1506.108139514923 seconds
+time passed after training 19 epochs is 1585.4338462352753 seconds
+time passed after training 20 epochs is 1664.8573093414307 seconds
+time passed after training 21 epochs is 1744.1995785236359 seconds
+time passed after training 22 epochs is 1823.4372007846832 seconds
+time passed after training 23 epochs is 1902.8053104877472 seconds
+time passed after training 24 epochs is 1982.235252380371 seconds
+time passed after training 25 epochs is 2061.6331102848053 seconds
+time passed after training 26 epochs is 2140.943756341934 seconds
+time passed after training 27 epochs is 2219.9656631946564 seconds
+time passed after training 28 epochs is 2299.4060714244843 seconds
+time passed after training 29 epochs is 2378.8511006832123 seconds
+time passed after training 30 epochs is 2458.2007303237915 seconds
+time passed after training 31 epochs is 2537.6284222602844 seconds
+time passed after training 32 epochs is 2617.0754063129425 seconds
+time passed after training 33 epochs is 2696.397392511368 seconds
+time passed after training 34 epochs is 2775.7670936584473 seconds
+time passed after training 35 epochs is 2855.202309846878 seconds
+time passed after training 36 epochs is 2934.4939725399017 seconds
+time passed after training 37 epochs is 3013.721041917801 seconds
+time passed after training 38 epochs is 3092.9869105815887 seconds
+time passed after training 39 epochs is 3172.4179463386536 seconds
+time passed after training 40 epochs is 3251.9284839630127 seconds
+time passed after training 41 epochs is 3331.31352519989 seconds
+time passed after training 42 epochs is 3410.8016843795776 seconds
+time passed after training 43 epochs is 3490.331109523773 seconds
+time passed after training 44 epochs is 3569.520833969116 seconds
+time passed after training 45 epochs is 3648.8693459033966 seconds
+time passed after training 46 epochs is 3728.2262675762177 seconds
+time passed after training 47 epochs is 3807.673537015915 seconds
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Linear
+ResNet
+Files already downloaded and verified
+Files already downloaded and verified
+starting training
+time passed after training 0 epochs is 74.46830177307129 seconds
+time passed after training 1 epochs is 149.0587215423584 seconds
+time passed after training 2 epochs is 223.77437663078308 seconds
+time passed after training 3 epochs is 298.60737442970276 seconds
+time passed after training 4 epochs is 373.4194140434265 seconds
+time passed after training 5 epochs is 448.1445288658142 seconds
+time passed after training 6 epochs is 522.9377145767212 seconds
+time passed after training 7 epochs is 597.8344061374664 seconds
+time passed after training 8 epochs is 672.5469875335693 seconds
+time passed after training 9 epochs is 747.3349704742432 seconds
+time passed after training 10 epochs is 822.1338956356049 seconds
+time passed after training 11 epochs is 896.9764230251312 seconds
+time passed after training 12 epochs is 971.7703588008881 seconds
+time passed after training 13 epochs is 1047.0194861888885 seconds
+time passed after training 14 epochs is 1122.1556057929993 seconds
+time passed after training 15 epochs is 1197.3597493171692 seconds
+time passed after training 16 epochs is 1272.5983555316925 seconds
+time passed after training 17 epochs is 1347.8749282360077 seconds
+time passed after training 18 epochs is 1423.0515275001526 seconds
+time passed after training 19 epochs is 1498.2925605773926 seconds
+time passed after training 20 epochs is 1573.4850115776062 seconds
+time passed after training 21 epochs is 1648.6853377819061 seconds
+time passed after training 22 epochs is 1723.760572195053 seconds
+time passed after training 23 epochs is 1798.9934401512146 seconds
+time passed after training 24 epochs is 1874.012493133545 seconds
+time passed after training 25 epochs is 1949.216813325882 seconds
+time passed after training 26 epochs is 2024.3409078121185 seconds
+time passed after training 27 epochs is 2099.569179534912 seconds
+time passed after training 28 epochs is 2174.7905535697937 seconds
+time passed after training 29 epochs is 2250.0243780612946 seconds
+time passed after training 30 epochs is 2325.1378338336945 seconds
+time passed after training 31 epochs is 2400.2947459220886 seconds
+time passed after training 32 epochs is 2475.044182062149 seconds
+time passed after training 33 epochs is 2549.4361922740936 seconds
+time passed after training 34 epochs is 2623.6654489040375 seconds
+time passed after training 35 epochs is 2697.9699845314026 seconds
+time passed after training 36 epochs is 2772.2813522815704 seconds
+time passed after training 37 epochs is 2846.431349515915 seconds
+time passed after training 38 epochs is 2920.755246400833 seconds
+time passed after training 39 epochs is 2995.099014043808 seconds
+time passed after training 40 epochs is 3069.4827511310577 seconds
+time passed after training 41 epochs is 3143.8424854278564 seconds
+time passed after training 42 epochs is 3218.2522537708282 seconds
+time passed after training 43 epochs is 3292.547746896744 seconds
+time passed after training 44 epochs is 3366.932705640793 seconds
+time passed after training 45 epochs is 3441.2902381420135 seconds
+time passed after training 46 epochs is 3515.5879275798798 seconds
+time passed after training 47 epochs is 3589.8979909420013 seconds
+time passed after training 48 epochs is 3664.2619721889496 seconds
+time passed after training 49 epochs is 3738.4275550842285 seconds
+time passed after training 50 epochs is 3813.0875487327576 seconds
+time passed after training 51 epochs is 3888.2788922786713 seconds
+time passed after training 52 epochs is 3963.6344616413116 seconds
+time passed after training 53 epochs is 4038.953549385071 seconds
+time passed after training 54 epochs is 4114.187325954437 seconds
+time passed after training 55 epochs is 4189.337095499039 seconds
+time passed after training 56 epochs is 4264.5955510139465 seconds
+time passed after training 57 epochs is 4339.8717794418335 seconds
+time passed after training 58 epochs is 4415.117356300354 seconds
+time passed after training 59 epochs is 4490.268327474594 seconds
+time passed after training 60 epochs is 4565.504820585251 seconds
+time passed after training 61 epochs is 4640.715924978256 seconds
+time passed after training 62 epochs is 4715.355901002884 seconds
+time passed after training 63 epochs is 4789.662414073944 seconds
+time passed after training 64 epochs is 4864.041777610779 seconds
+time passed after training 65 epochs is 4938.42427444458 seconds
+time passed after training 66 epochs is 5012.81244802475 seconds
+time passed after training 67 epochs is 5087.183482646942 seconds
+time passed after training 68 epochs is 5161.515751838684 seconds
+time passed after training 69 epochs is 5235.901175260544 seconds
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Linear
+ResNet
+Files already downloaded and verified
+Files already downloaded and verified
+starting training
+time passed after training 0 epochs is 69.85797071456909 seconds
+time passed after training 1 epochs is 139.72876024246216 seconds
+time passed after training 2 epochs is 209.58234238624573 seconds
+time passed after training 3 epochs is 279.5006334781647 seconds
+time passed after training 4 epochs is 349.4410095214844 seconds
+time passed after training 5 epochs is 419.39217710494995 seconds
+time passed after training 6 epochs is 489.2724504470825 seconds
+time passed after training 7 epochs is 559.1846935749054 seconds
+time passed after training 8 epochs is 629.1193063259125 seconds
+time passed after training 9 epochs is 699.029226064682 seconds
+time passed after training 10 epochs is 768.9381341934204 seconds
+time passed after training 11 epochs is 838.8189125061035 seconds
+time passed after training 12 epochs is 908.7953281402588 seconds
+time passed after training 13 epochs is 979.1475429534912 seconds
+time passed after training 14 epochs is 1049.3558101654053 seconds
+time passed after training 15 epochs is 1120.288204908371 seconds
+time passed after training 16 epochs is 1191.3434031009674 seconds
+time passed after training 17 epochs is 1262.3148410320282 seconds
+time passed after training 18 epochs is 1333.1998479366302 seconds
+time passed after training 19 epochs is 1404.0928039550781 seconds
+time passed after training 20 epochs is 1474.9639983177185 seconds
+time passed after training 21 epochs is 1545.8774933815002 seconds
+time passed after training 22 epochs is 1616.7679798603058 seconds
+time passed after training 23 epochs is 1687.5891535282135 seconds
+time passed after training 24 epochs is 1758.0263650417328 seconds
+time passed after training 25 epochs is 1828.9666616916656 seconds
+time passed after training 26 epochs is 1899.853265762329 seconds
+time passed after training 27 epochs is 1970.7376794815063 seconds
+time passed after training 28 epochs is 2041.4917576313019 seconds
+time passed after training 29 epochs is 2112.393494129181 seconds
+time passed after training 30 epochs is 2183.224803686142 seconds
+time passed after training 31 epochs is 2254.081755876541 seconds
+time passed after training 32 epochs is 2324.8447375297546 seconds
+time passed after training 33 epochs is 2395.6494369506836 seconds
+time passed after training 34 epochs is 2466.5324218273163 seconds
+time passed after training 35 epochs is 2537.4901225566864 seconds
+time passed after training 36 epochs is 2608.3806943893433 seconds
+time passed after training 37 epochs is 2679.241586446762 seconds
+time passed after training 38 epochs is 2750.120977640152 seconds
+time passed after training 39 epochs is 2820.8044052124023 seconds
+time passed after training 40 epochs is 2891.6741745471954 seconds
+time passed after training 41 epochs is 2962.5238840579987 seconds
+time passed after training 42 epochs is 3033.362191438675 seconds
+time passed after training 43 epochs is 3104.254113674164 seconds
+time passed after training 44 epochs is 3175.137932062149 seconds
+time passed after training 45 epochs is 3245.953447818756 seconds
+time passed after training 46 epochs is 3316.386466026306 seconds
+time passed after training 47 epochs is 3386.454753637314 seconds
+time passed after training 48 epochs is 3456.435508966446 seconds
+time passed after training 49 epochs is 3525.9703810214996 seconds
+time passed after training 50 epochs is 3595.900515794754 seconds
+time passed after training 51 epochs is 3665.9026136398315 seconds
+time passed after training 52 epochs is 3735.9095022678375 seconds
+time passed after training 53 epochs is 3805.8525173664093 seconds
+time passed after training 54 epochs is 3875.8251008987427 seconds
+time passed after training 55 epochs is 3945.6805856227875 seconds
+time passed after training 56 epochs is 4015.6295957565308 seconds
+time passed after training 57 epochs is 4085.6145215034485 seconds
+time passed after training 58 epochs is 4155.571444034576 seconds
+time passed after training 59 epochs is 4225.526197433472 seconds
+time passed after training 60 epochs is 4295.526168346405 seconds
+time passed after training 61 epochs is 4365.538740634918 seconds
+time passed after training 62 epochs is 4435.486172914505 seconds
+time passed after training 63 epochs is 4505.829365730286 seconds
+time passed after training 64 epochs is 4576.745115995407 seconds
+time passed after training 65 epochs is 4647.730323076248 seconds
+time passed after training 66 epochs is 4718.596149921417 seconds
+time passed after training 67 epochs is 4789.432521820068 seconds
+time passed after training 68 epochs is 4860.20929646492 seconds
+time passed after training 69 epochs is 4931.093299150467 seconds
+time passed after training 70 epochs is 5001.937638759613 seconds
+time passed after training 71 epochs is 5072.762874126434 seconds
+time passed after training 72 epochs is 5143.529888629913 seconds
+time passed after training 73 epochs is 5214.327138185501 seconds
+time passed after training 74 epochs is 5284.793401956558 seconds
+time passed after training 75 epochs is 5355.673846244812 seconds
+time passed after training 76 epochs is 5426.565304517746 seconds
+time passed after training 77 epochs is 5497.1504373550415 seconds
+time passed after training 78 epochs is 5567.356224775314 seconds
+time passed after training 79 epochs is 5637.327497959137 seconds
+time passed after training 80 epochs is 5707.308898448944 seconds
+time passed after training 81 epochs is 5777.217398643494 seconds
+time passed after training 82 epochs is 5847.144957780838 seconds
+time passed after training 83 epochs is 5917.058111190796 seconds
+time passed after training 84 epochs is 5986.966587781906 seconds
+time passed after training 85 epochs is 6056.830579042435 seconds
+time passed after training 86 epochs is 6126.666635274887 seconds
+time passed after training 87 epochs is 6196.6460547447205 seconds
+time passed after training 88 epochs is 6266.615318536758 seconds
+time passed after training 89 epochs is 6336.594388961792 seconds
+time passed after training 90 epochs is 6406.505494117737 seconds
+time passed after training 91 epochs is 6476.496314764023 seconds
+time passed after training 92 epochs is 6546.477434396744 seconds
+time passed after training 93 epochs is 6616.430284738541 seconds
+time passed after training 94 epochs is 6686.440689325333 seconds
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Linear
+ResNet
+Files already downloaded and verified
+Files already downloaded and verified
+starting training
+time passed after training 0 epochs is 67.09989333152771 seconds
+time passed after training 1 epochs is 134.32714009284973 seconds
+time passed after training 2 epochs is 201.5298252105713 seconds
+time passed after training 3 epochs is 268.94034910202026 seconds
+time passed after training 4 epochs is 336.8353114128113 seconds
+time passed after training 5 epochs is 405.35154843330383 seconds
+time passed after training 6 epochs is 473.78884196281433 seconds
+time passed after training 7 epochs is 542.2681083679199 seconds
+time passed after training 8 epochs is 610.7299468517303 seconds
+time passed after training 9 epochs is 679.1795721054077 seconds
+time passed after training 10 epochs is 747.6804556846619 seconds
+time passed after training 11 epochs is 816.1959095001221 seconds
+time passed after training 12 epochs is 884.7786538600922 seconds
+time passed after training 13 epochs is 953.3115727901459 seconds
+time passed after training 14 epochs is 1021.8988173007965 seconds
+time passed after training 15 epochs is 1090.289956331253 seconds
+time passed after training 16 epochs is 1158.7072052955627 seconds
+time passed after training 17 epochs is 1227.1808543205261 seconds
+time passed after training 18 epochs is 1295.686773300171 seconds
+time passed after training 19 epochs is 1364.222648382187 seconds
+time passed after training 20 epochs is 1432.668543100357 seconds
+time passed after training 21 epochs is 1501.1672768592834 seconds
+time passed after training 22 epochs is 1569.6682283878326 seconds
+time passed after training 23 epochs is 1638.0576450824738 seconds
+time passed after training 24 epochs is 1705.8643341064453 seconds
+time passed after training 25 epochs is 1773.4470884799957 seconds
+time passed after training 26 epochs is 1841.0121250152588 seconds
+time passed after training 27 epochs is 1908.512778043747 seconds
+time passed after training 28 epochs is 1976.0839142799377 seconds
+time passed after training 29 epochs is 2043.644787788391 seconds
+time passed after training 30 epochs is 2111.2193393707275 seconds
+time passed after training 31 epochs is 2178.7194793224335 seconds
+time passed after training 32 epochs is 2246.260008096695 seconds
+time passed after training 33 epochs is 2313.809072494507 seconds
+time passed after training 34 epochs is 2381.3605155944824 seconds
+time passed after training 35 epochs is 2448.937982082367 seconds
+time passed after training 36 epochs is 2516.437525987625 seconds
+time passed after training 37 epochs is 2584.0501160621643 seconds
+time passed after training 38 epochs is 2651.535873413086 seconds
+time passed after training 39 epochs is 2719.03973197937 seconds
+time passed after training 40 epochs is 2786.506964445114 seconds
+time passed after training 41 epochs is 2854.0211000442505 seconds
+time passed after training 42 epochs is 2921.606748342514 seconds
+time passed after training 43 epochs is 2989.596806049347 seconds
+time passed after training 44 epochs is 3058.213213443756 seconds
+time passed after training 45 epochs is 3126.7605810165405 seconds
+time passed after training 46 epochs is 3195.326390981674 seconds
+time passed after training 47 epochs is 3263.742917537689 seconds
+time passed after training 48 epochs is 3332.707884311676 seconds
+time passed after training 49 epochs is 3399.927825689316 seconds
+time passed after training 50 epochs is 3468.4028358459473 seconds
+time passed after training 51 epochs is 3536.8439495563507 seconds
+time passed after training 52 epochs is 3605.3352925777435 seconds
+time passed after training 53 epochs is 3673.7765650749207 seconds
+time passed after training 54 epochs is 3742.2624595165253 seconds
+time passed after training 55 epochs is 3810.80127453804 seconds
+time passed after training 56 epochs is 3879.243288040161 seconds
+time passed after training 57 epochs is 3947.7225637435913 seconds
+time passed after training 58 epochs is 4016.2445075511932 seconds
+time passed after training 59 epochs is 4084.49654173851 seconds
+time passed after training 60 epochs is 4152.851273536682 seconds
+time passed after training 61 epochs is 4221.2631142139435 seconds
+time passed after training 62 epochs is 4289.744230747223 seconds
+time passed after training 63 epochs is 4358.156139612198 seconds
+time passed after training 64 epochs is 4426.573928594589 seconds
+time passed after training 65 epochs is 4495.076648950577 seconds
+time passed after training 66 epochs is 4563.627955675125 seconds
+time passed after training 67 epochs is 4632.139341592789 seconds
+time passed after training 68 epochs is 4700.545925378799 seconds
+time passed after training 69 epochs is 4769.061037302017 seconds
+time passed after training 70 epochs is 4837.624267101288 seconds
+time passed after training 71 epochs is 4906.2316110134125 seconds
+time passed after training 72 epochs is 4974.649088859558 seconds
+time passed after training 73 epochs is 5042.897338151932 seconds
+time passed after training 74 epochs is 5110.7545285224915 seconds
+time passed after training 75 epochs is 5178.537505149841 seconds
+time passed after training 76 epochs is 5246.296169757843 seconds
+time passed after training 77 epochs is 5314.471623182297 seconds
+time passed after training 78 epochs is 5382.755842208862 seconds
+time passed after training 79 epochs is 5451.867408037186 seconds
+time passed after training 80 epochs is 5519.55202460289 seconds
+time passed after training 81 epochs is 5587.379553556442 seconds
+time passed after training 82 epochs is 5655.071733236313 seconds
+time passed after training 83 epochs is 5722.779873371124 seconds
+time passed after training 84 epochs is 5790.534418344498 seconds
+time passed after training 85 epochs is 5858.314711332321 seconds
+time passed after training 86 epochs is 5926.063407897949 seconds
+time passed after training 87 epochs is 5993.714047670364 seconds
+time passed after training 88 epochs is 6061.478225708008 seconds
+time passed after training 89 epochs is 6129.291389703751 seconds
+time passed after training 90 epochs is 6197.086607456207 seconds
+time passed after training 91 epochs is 6264.798924446106 seconds
+time passed after training 92 epochs is 6332.490269184113 seconds
+time passed after training 93 epochs is 6400.263139724731 seconds
+time passed after training 94 epochs is 6468.288006782532 seconds
+time passed after training 95 epochs is 6536.846435546875 seconds
+time passed after training 96 epochs is 6605.36723947525 seconds
+time passed after training 97 epochs is 6673.759695529938 seconds
+time passed after training 98 epochs is 6742.203588247299 seconds
+time passed after training 99 epochs is 6808.595863342285 seconds
+time passed after training 100 epochs is 6876.232625246048 seconds
+time passed after training 101 epochs is 6943.890313625336 seconds
+time passed after training 102 epochs is 7011.787251234055 seconds
+time passed after training 103 epochs is 7079.855453014374 seconds
+time passed after training 104 epochs is 7148.260303020477 seconds
+time passed after training 105 epochs is 7216.573225736618 seconds
+time passed after training 106 epochs is 7284.96747636795 seconds
+time passed after training 107 epochs is 7353.420569419861 seconds
+time passed after training 108 epochs is 7421.825330257416 seconds
+time passed after training 109 epochs is 7490.16689157486 seconds
+time passed after training 110 epochs is 7558.568519830704 seconds
+time passed after training 111 epochs is 7627.0853543281555 seconds
+time passed after training 112 epochs is 7695.563302755356 seconds
+time passed after training 113 epochs is 7764.112355470657 seconds
+time passed after training 114 epochs is 7832.405068397522 seconds
+time passed after training 115 epochs is 7900.607080221176 seconds
+{"success":true,"textId":"2171557805656769","quotaRemaining":0}ok
+using device cuda:0
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Linear
+ResNet
+Files already downloaded and verified
+Files already downloaded and verified
+starting training
+{"success":true,"textId":"10081557868360760","quotaRemaining":0}ok
+
+
+
+RUN 3
+using device cuda:0
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Linear
+ResNet
+Files already downloaded and verified
+Files already downloaded and verified
+starting training
+{"success":false,"error":"Only one test text message is allowed per day.","quotaRemaining":0}ok
+using device cuda:0
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Linear
+ResNet
+Files already downloaded and verified
+Files already downloaded and verified
+time after 0 iterations: 0.31051111221313477 seconds
+time after 100 iterations: 20.48438811302185 seconds
+time after 200 iterations: 40.58460998535156 seconds
+time after 300 iterations: 60.651230812072754 seconds
+time after 400 iterations: 80.68973422050476 seconds
+time after 500 iterations: 100.81782531738281 seconds
+time after 600 iterations: 120.8907961845398 seconds
+time after 700 iterations: 140.98164820671082 seconds
+time after 800 iterations: 161.02453303337097 seconds
+time after 900 iterations: 181.15059280395508 seconds
+time after 1000 iterations: 201.23236727714539 seconds
+time after 1100 iterations: 221.30523490905762 seconds
+time after 1200 iterations: 241.33546376228333 seconds
+time after 1300 iterations: 261.38715624809265 seconds
+time after 1400 iterations: 281.4760789871216 seconds
+time after 1500 iterations: 301.5585198402405 seconds
+time after 1600 iterations: 321.63850140571594 seconds
+time after 1700 iterations: 341.7283442020416 seconds
+time after 1800 iterations: 361.80198764801025 seconds
+time after 1900 iterations: 381.8938241004944 seconds
+time after 2000 iterations: 401.975478887558 seconds
+time after 2100 iterations: 422.0637319087982 seconds
+time after 2200 iterations: 442.1687755584717 seconds
+time after 2300 iterations: 462.36180233955383 seconds
+time after 2400 iterations: 482.5416808128357 seconds
+time after 2500 iterations: 502.7417573928833 seconds
+time after 2600 iterations: 522.9413285255432 seconds
+time after 2700 iterations: 543.1193780899048 seconds
+time after 2800 iterations: 563.2505066394806 seconds
+time after 2900 iterations: 583.4582939147949 seconds
+time after 3000 iterations: 603.6641998291016 seconds
+time after 3100 iterations: 623.876736164093 seconds
+time after 3200 iterations: 643.98393034935 seconds
+time after 3300 iterations: 664.1668701171875 seconds
+time after 3400 iterations: 684.2670891284943 seconds
+time after 3500 iterations: 704.4455003738403 seconds
+time after 3600 iterations: 724.5720415115356 seconds
+time after 3700 iterations: 744.7608919143677 seconds
+time after 3800 iterations: 764.9238107204437 seconds
+time after 3900 iterations: 785.1037967205048 seconds
+time after 4000 iterations: 805.2547595500946 seconds
+time after 4100 iterations: 825.434027671814 seconds
+time after 4200 iterations: 845.6160292625427 seconds
+time after 4300 iterations: 865.7053470611572 seconds
+time after 4400 iterations: 885.886917591095 seconds
+time after 4500 iterations: 906.1553933620453 seconds
+time after 4600 iterations: 926.4016196727753 seconds
+time after 4700 iterations: 946.6162762641907 seconds
+time after 4800 iterations: 966.8817942142487 seconds
+time after 4900 iterations: 986.9810106754303 seconds
+time after 5000 iterations: 1007.1823003292084 seconds
+time after 5100 iterations: 1027.3568110466003 seconds
+time after 5200 iterations: 1047.5480737686157 seconds
+time after 5300 iterations: 1067.741250038147 seconds
+time after 5400 iterations: 1087.9495258331299 seconds
+time after 5500 iterations: 1108.1053640842438 seconds
+time after 5600 iterations: 1128.3172290325165 seconds
+time after 5700 iterations: 1148.5673191547394 seconds
+time after 5800 iterations: 1168.7356884479523 seconds
+time after 5900 iterations: 1188.8608937263489 seconds
+time after 6000 iterations: 1209.084969997406 seconds
+time after 6100 iterations: 1229.306437253952 seconds
+time after 6200 iterations: 1249.4885897636414 seconds
+time after 6300 iterations: 1269.6726171970367 seconds
+time after 6400 iterations: 1289.8462913036346 seconds
+time after 6500 iterations: 1309.939462184906 seconds
+time after 6600 iterations: 1330.1247429847717 seconds
+time after 6700 iterations: 1350.2549314498901 seconds
+time after 6800 iterations: 1370.4819831848145 seconds
+time after 6900 iterations: 1390.6927032470703 seconds
+time after 7000 iterations: 1410.8724896907806 seconds
+time after 7100 iterations: 1430.9206862449646 seconds
+time after 7200 iterations: 1451.0277559757233 seconds
+time after 7300 iterations: 1471.088630914688 seconds
+time after 7400 iterations: 1491.2107360363007 seconds
+time after 7500 iterations: 1511.2853465080261 seconds
+time after 7600 iterations: 1531.3494954109192 seconds
+time after 7700 iterations: 1551.4383318424225 seconds
+time after 7800 iterations: 1571.5273077487946 seconds
+time after 7900 iterations: 1591.6064257621765 seconds
+time after 8000 iterations: 1611.6797342300415 seconds
+time after 8100 iterations: 1631.7609691619873 seconds
+time after 8200 iterations: 1651.8493247032166 seconds
+time after 8300 iterations: 1671.89351272583 seconds
+time after 8400 iterations: 1692.0177035331726 seconds
+time after 8500 iterations: 1712.0936841964722 seconds
+time after 8600 iterations: 1732.1797454357147 seconds
+time after 8700 iterations: 1752.1556186676025 seconds
+time after 8800 iterations: 1772.2472383975983 seconds
+time after 8900 iterations: 1792.3270399570465 seconds
+time after 9000 iterations: 1812.3608853816986 seconds
+time after 9100 iterations: 1832.5073511600494 seconds
+time after 9200 iterations: 1852.6123006343842 seconds
+time after 9300 iterations: 1872.7693409919739 seconds
+time after 9400 iterations: 1892.8435153961182 seconds
+time after 9500 iterations: 1912.9186735153198 seconds
+time after 9600 iterations: 1933.0246505737305 seconds
+time after 9700 iterations: 1953.1243870258331 seconds
+time after 9800 iterations: 1973.289508342743 seconds
+time after 9900 iterations: 1993.4664566516876 seconds
+time after 10000 iterations: 2013.4325845241547 seconds
+{"success":false,"error":"Only one test text message is allowed per day.","quotaRemaining":0}ok
+using device cuda:0
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Linear
+ResNet
+Files already downloaded and verified
+Files already downloaded and verified
+time after 0 iterations: 0.8568770885467529 seconds
+time after 100 iterations: 20.918826818466187 seconds
+time after 200 iterations: 40.81141901016235 seconds
+time after 300 iterations: 60.70314359664917 seconds
+time after 400 iterations: 80.6657977104187 seconds
+time after 500 iterations: 100.67955207824707 seconds
+time after 600 iterations: 120.70073771476746 seconds
+time after 700 iterations: 140.73813462257385 seconds
+time after 800 iterations: 160.67095923423767 seconds
+time after 900 iterations: 180.61431455612183 seconds
+time after 1000 iterations: 200.49424934387207 seconds
+time after 1100 iterations: 220.49502682685852 seconds
+time after 1200 iterations: 240.4209177494049 seconds
+time after 1300 iterations: 260.41521978378296 seconds
+time after 1400 iterations: 280.52453231811523 seconds
+time after 1500 iterations: 300.5360019207001 seconds
+time after 1600 iterations: 320.5913186073303 seconds
+time after 1700 iterations: 340.6181275844574 seconds
+time after 1800 iterations: 360.5114793777466 seconds
+time after 1900 iterations: 380.5249297618866 seconds
+time after 2000 iterations: 400.5594401359558 seconds
+time after 2100 iterations: 420.53808212280273 seconds
+time after 2200 iterations: 440.4913146495819 seconds
+time after 2300 iterations: 460.5279891490936 seconds
+time after 2400 iterations: 480.4826364517212 seconds
+time after 2500 iterations: 500.64292883872986 seconds
+time after 2600 iterations: 520.6839308738708 seconds
+time after 2700 iterations: 540.7138519287109 seconds
+time after 2800 iterations: 560.7177674770355 seconds
+time after 2900 iterations: 580.7759034633636 seconds
+time after 3000 iterations: 600.8468902111053 seconds
+time after 3100 iterations: 620.9006125926971 seconds
+time after 3200 iterations: 640.8730351924896 seconds
+time after 3300 iterations: 660.8552038669586 seconds
+time after 3400 iterations: 680.7393939495087 seconds
+time after 3500 iterations: 700.754072189331 seconds
+time after 3600 iterations: 720.724493265152 seconds
+time after 3700 iterations: 740.7662568092346 seconds
+time after 3800 iterations: 760.8237669467926 seconds
+time after 3900 iterations: 780.8362655639648 seconds
+time after 4000 iterations: 800.8206074237823 seconds
+time after 4100 iterations: 820.8720107078552 seconds
+time after 4200 iterations: 840.9354054927826 seconds
+time after 4300 iterations: 861.0589683055878 seconds
+time after 4400 iterations: 881.1008439064026 seconds
+time after 4500 iterations: 901.272625207901 seconds
+time after 4600 iterations: 921.3158619403839 seconds
+time after 4700 iterations: 941.4234147071838 seconds
+time after 4800 iterations: 961.3664600849152 seconds
+time after 4900 iterations: 981.2561893463135 seconds
+time after 5000 iterations: 1001.3766052722931 seconds
+time after 5100 iterations: 1021.378680229187 seconds
+time after 5200 iterations: 1041.5343103408813 seconds
+time after 5300 iterations: 1061.5789473056793 seconds
+time after 5400 iterations: 1081.6061301231384 seconds
+time after 5500 iterations: 1101.599543094635 seconds
+time after 5600 iterations: 1121.645140171051 seconds
+time after 5700 iterations: 1141.6661703586578 seconds
+time after 5800 iterations: 1161.7814440727234 seconds
+time after 5900 iterations: 1181.7589077949524 seconds
+time after 6000 iterations: 1201.7772986888885 seconds
+time after 6100 iterations: 1221.830262184143 seconds
+time after 6200 iterations: 1241.8935153484344 seconds
+time after 6300 iterations: 1261.792886018753 seconds
+time after 6400 iterations: 1281.8197703361511 seconds
+time after 6500 iterations: 1301.7123827934265 seconds
+time after 6600 iterations: 1321.7629058361053 seconds
+time after 6700 iterations: 1341.7630622386932 seconds
+time after 6800 iterations: 1361.8051509857178 seconds
+time after 6900 iterations: 1381.7780318260193 seconds
+time after 7000 iterations: 1401.7940378189087 seconds
+time after 7100 iterations: 1421.7767481803894 seconds
+time after 7200 iterations: 1441.8164188861847 seconds
+time after 7300 iterations: 1461.816481590271 seconds
+time after 7400 iterations: 1481.8330383300781 seconds
+time after 7500 iterations: 1501.8049416542053 seconds
+time after 7600 iterations: 1521.8621981143951 seconds
+time after 7700 iterations: 1541.836966753006 seconds
+time after 7800 iterations: 1561.7239925861359 seconds
+time after 7900 iterations: 1581.6552138328552 seconds
+time after 8000 iterations: 1601.5305862426758 seconds
+time after 8100 iterations: 1621.464569568634 seconds
+time after 8200 iterations: 1641.448343038559 seconds
+time after 8300 iterations: 1661.3944997787476 seconds
+time after 8400 iterations: 1681.332316160202 seconds
+time after 8500 iterations: 1701.3166255950928 seconds
+time after 8600 iterations: 1721.2572665214539 seconds
+time after 8700 iterations: 1741.1903021335602 seconds
+time after 8800 iterations: 1761.1619937419891 seconds
+time after 8900 iterations: 1781.1364319324493 seconds
+time after 9000 iterations: 1801.0692269802094 seconds
+time after 9100 iterations: 1821.0785703659058 seconds
+time after 9200 iterations: 1841.0791006088257 seconds
+time after 9300 iterations: 1861.1006877422333 seconds
+time after 9400 iterations: 1880.9747061729431 seconds
+time after 9500 iterations: 1901.0188481807709 seconds
+time after 9600 iterations: 1920.8578116893768 seconds
+time after 9700 iterations: 1940.8707356452942 seconds
+time after 9800 iterations: 1960.8396110534668 seconds
+time after 9900 iterations: 1980.845683813095 seconds
+time after 10000 iterations: 2000.6355156898499 seconds
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Linear
+ResNet
+Files already downloaded and verified
+Files already downloaded and verified
+time after 0 iterations: 0.19373035430908203 seconds
+time after 100 iterations: 37.980058908462524 seconds
+time after 200 iterations: 75.54873442649841 seconds
+time after 300 iterations: 113.3391809463501 seconds
+time after 400 iterations: 150.90076994895935 seconds
+time after 500 iterations: 188.62075066566467 seconds
+time after 600 iterations: 226.06632328033447 seconds
+time after 700 iterations: 263.85914850234985 seconds
+time after 800 iterations: 301.4136416912079 seconds
+time after 900 iterations: 339.2117850780487 seconds
+time after 1000 iterations: 376.75359296798706 seconds
+time after 1100 iterations: 414.51903009414673 seconds
+time after 1200 iterations: 452.07217669487 seconds
+time after 1300 iterations: 489.770427942276 seconds
+time after 1400 iterations: 527.2482085227966 seconds
+time after 1500 iterations: 564.9771995544434 seconds
+time after 1600 iterations: 602.5202720165253 seconds
+time after 1700 iterations: 640.317174911499 seconds
+time after 1800 iterations: 677.8799202442169 seconds
+time after 1900 iterations: 715.6802015304565 seconds
+time after 2000 iterations: 753.2368350028992 seconds
+time after 2100 iterations: 790.9425303936005 seconds
+time after 2200 iterations: 828.4935431480408 seconds
+time after 2300 iterations: 866.1307284832001 seconds
+time after 2400 iterations: 903.6509799957275 seconds
+time after 2500 iterations: 941.3937821388245 seconds
+time after 2600 iterations: 978.9128470420837 seconds
+time after 2700 iterations: 1016.7390677928925 seconds
+time after 2800 iterations: 1054.3437349796295 seconds
+time after 2900 iterations: 1092.1233396530151 seconds
+time after 3000 iterations: 1129.7006862163544 seconds
+time after 3100 iterations: 1167.3833258152008 seconds
+time after 3200 iterations: 1204.8965108394623 seconds
+time after 3300 iterations: 1242.6504747867584 seconds
+time after 3400 iterations: 1280.06223487854 seconds
+time after 3500 iterations: 1317.7525689601898 seconds
+time after 3600 iterations: 1355.251064300537 seconds
+time after 3700 iterations: 1392.911992073059 seconds
+time after 3800 iterations: 1430.405822277069 seconds
+time after 3900 iterations: 1468.0223808288574 seconds
+time after 4000 iterations: 1505.5342044830322 seconds
+time after 4100 iterations: 1543.2854075431824 seconds
+time after 4200 iterations: 1580.8212954998016 seconds
+time after 4300 iterations: 1618.5966954231262 seconds
+time after 4400 iterations: 1656.1203677654266 seconds
+time after 4500 iterations: 1693.8703854084015 seconds
+time after 4600 iterations: 1731.3118784427643 seconds
+time after 4700 iterations: 1769.0793199539185 seconds
+time after 4800 iterations: 1806.4873631000519 seconds
+time after 4900 iterations: 1843.9896626472473 seconds
+time after 5000 iterations: 1881.3321599960327 seconds
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Linear
+ResNet
+Files already downloaded and verified
+Files already downloaded and verified
+time after 0 iterations: 0.3556191921234131 seconds
+time after 100 iterations: 71.69102001190186 seconds
+time after 200 iterations: 143.38599848747253 seconds
+time after 300 iterations: 214.70667481422424 seconds
+time after 400 iterations: 285.7664737701416 seconds
+time after 500 iterations: 357.2058780193329 seconds
+time after 600 iterations: 428.6373345851898 seconds
+time after 700 iterations: 500.28117847442627 seconds
+time after 800 iterations: 572.1679885387421 seconds
+time after 900 iterations: 643.8688900470734 seconds
+time after 1000 iterations: 715.7484230995178 seconds
+time after 1100 iterations: 787.5388457775116 seconds
+time after 1200 iterations: 858.9941010475159 seconds
+time after 1300 iterations: 930.5376892089844 seconds
+time after 1400 iterations: 1002.2131454944611 seconds
+time after 1500 iterations: 1073.5350799560547 seconds
+time after 1600 iterations: 1144.897489786148 seconds
+time after 1700 iterations: 1216.4250106811523 seconds
+time after 1800 iterations: 1287.8644170761108 seconds
+time after 1900 iterations: 1359.2423202991486 seconds
+time after 2000 iterations: 1430.695384979248 seconds
+time after 2100 iterations: 1502.0594103336334 seconds
+time after 2200 iterations: 1573.500768661499 seconds
+time after 2300 iterations: 1645.037757396698 seconds
+time after 2400 iterations: 1716.4984426498413 seconds
+time after 2500 iterations: 1787.2157666683197 seconds
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Linear
+ResNet
+Files already downloaded and verified
+Files already downloaded and verified
+time after 0 iterations: 0.6700522899627686 seconds
+time after 100 iterations: 139.22436451911926 seconds
+time after 200 iterations: 277.6056172847748 seconds
+time after 300 iterations: 416.30716156959534 seconds
+time after 400 iterations: 554.3831446170807 seconds
+time after 500 iterations: 692.3551478385925 seconds
+time after 600 iterations: 830.4360430240631 seconds
+time after 700 iterations: 968.7426590919495 seconds
+time after 800 iterations: 1106.4458084106445 seconds
+time after 900 iterations: 1244.261465549469 seconds
+time after 1000 iterations: 1382.2251377105713 seconds
+time after 1100 iterations: 1520.0741791725159 seconds
+time after 1200 iterations: 1658.536941766739 seconds
+time after 1250 iterations: 1726.1123447418213 seconds
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Linear
+ResNet
+Files already downloaded and verified
+Files already downloaded and verified
+starting training
+time passed after training 0 epochs is 80.40380787849426 seconds
+time passed after training 1 epochs is 160.38185119628906 seconds
+time passed after training 2 epochs is 240.55190515518188 seconds
+time passed after training 3 epochs is 320.54719829559326 seconds
+time passed after training 4 epochs is 400.5638360977173 seconds
+time passed after training 5 epochs is 480.43715834617615 seconds
+time passed after training 6 epochs is 560.9052278995514 seconds
+time passed after training 7 epochs is 640.8581447601318 seconds
+time passed after training 8 epochs is 720.8350591659546 seconds
+time passed after training 9 epochs is 801.0403134822845 seconds
+time passed after training 10 epochs is 881.4494540691376 seconds
+time passed after training 11 epochs is 961.2745552062988 seconds
+time passed after training 12 epochs is 1041.0805654525757 seconds
+time passed after training 13 epochs is 1121.1458151340485 seconds
+time passed after training 14 epochs is 1201.081570148468 seconds
+time passed after training 15 epochs is 1281.1378057003021 seconds
+time passed after training 16 epochs is 1360.9730098247528 seconds
+time passed after training 17 epochs is 1441.1240265369415 seconds
+time passed after training 18 epochs is 1521.1643517017365 seconds
+time passed after training 19 epochs is 1601.298553943634 seconds
+time passed after training 20 epochs is 1681.3059842586517 seconds
+time passed after training 21 epochs is 1761.4512376785278 seconds
+time passed after training 22 epochs is 1841.4241449832916 seconds
+time passed after training 23 epochs is 1921.6285774707794 seconds
+time passed after training 24 epochs is 2001.561143875122 seconds
+time passed after training 25 epochs is 2081.706332206726 seconds
+time passed after training 26 epochs is 2161.822210788727 seconds
+time passed after training 27 epochs is 2241.921501159668 seconds
+time passed after training 28 epochs is 2321.966767311096 seconds
+time passed after training 29 epochs is 2402.114586830139 seconds
+time passed after training 30 epochs is 2482.220070362091 seconds
+time passed after training 31 epochs is 2562.4057202339172 seconds
+{"success":true,"textId":"196221557932308444","quotaRemaining":0}ok

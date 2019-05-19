@@ -1,0 +1,35 @@
+[I 06:45:00.233 NotebookApp] [nb_conda_kernels] enabled, 1 kernels found
+[I 06:45:01.384 NotebookApp] JupyterLab extension loaded from /opt/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 06:45:01.384 NotebookApp] JupyterLab application directory is /opt/anaconda3/share/jupyter/lab
+[I 06:45:01.391 NotebookApp] [nb_conda] enabled
+[I 06:45:01.519 NotebookApp] ✓ nbpresent HTML export ENABLED
+[W 06:45:01.519 NotebookApp] ✗ nbpresent PDF export DISABLED: No module named 'nbbrowserpdf'
+[I 06:45:01.519 NotebookApp] Serving notebooks from local directory: /home/superraketen/DD2424project
+[I 06:45:01.519 NotebookApp] The Jupyter Notebook is running at:
+[I 06:45:01.519 NotebookApp] http://10.132.0.2:8888/?token=73634752d8cf3394eeae103e2893d9ab60d125f397fdddec
+[I 06:45:01.520 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 06:45:01.523 NotebookApp] No web browser found: could not locate runnable browser.
+[C 06:45:01.523 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1001/jupyter/nbserver-7409-open.html
+    Or copy and paste one of these URLs:
+        http://10.132.0.2:8888/?token=73634752d8cf3394eeae103e2893d9ab60d125f397fdddec
+[W 06:45:01.880 NotebookApp] 404 GET /api/kernels/f8b3e7aa-64c5-461d-b128-3a5ff0dcddaf/channels?session_id=ecc476e5ab8c4ca2bf6cb12425560edc (83.249.64.132): Kernel does not exist: f8b3e7aa-64c5-461d-b128-3a5ff0dcddaf
+[W 06:45:01.904 NotebookApp] 404 GET /api/kernels/f8b3e7aa-64c5-461d-b128-3a5ff0dcddaf/channels?session_id=ecc476e5ab8c4ca2bf6cb12425560edc (83.249.64.132) 35.49ms referer=None
+[W 06:45:07.882 NotebookApp] 404 GET /api/kernels/22ce0d7e-529a-45d5-8791-2334b45f595c/channels?session_id=b8fff540ec964dd887d57dfde0bf05eb (83.249.64.132): Kernel does not exist: 22ce0d7e-529a-45d5-8791-2334b45f595c
+[W 06:45:07.883 NotebookApp] 404 GET /api/kernels/22ce0d7e-529a-45d5-8791-2334b45f595c/channels?session_id=b8fff540ec964dd887d57dfde0bf05eb (83.249.64.132) 3.44ms referer=None
+[W 06:45:11.904 NotebookApp] Replacing stale connection: f8b3e7aa-64c5-461d-b128-3a5ff0dcddaf:ecc476e5ab8c4ca2bf6cb12425560edc
+[I 06:45:11.906 NotebookApp] Saving file at /assignmentforsaturdayAndreas.ipynb
+[W 06:45:12.412 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (83.249.64.132) 1.37ms referer=http://35.241.172.254:8888/notebooks/assignmentforsaturdayAndreas.ipynb
+[I 06:45:12.947 NotebookApp] Kernel started: d8392a60-1265-40d1-8813-ba153eccd7a8
+[W 06:46:10.336 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (83.249.64.132) 1.46ms referer=http://35.241.172.254:8888/notebooks/assignmentforsaturdayAndreas.ipynb
+[I 06:47:24.398 NotebookApp] Kernel interrupted: d8392a60-1265-40d1-8813-ba153eccd7a8
+[C 06:47:39.488 NotebookApp] received signal 15, stopping
+[I 06:47:39.489 NotebookApp] Shutting down 1 kernel
+[I 06:47:39.790 NotebookApp] Kernel shutdown: d8392a60-1265-40d1-8813-ba153eccd7a8
+jupyter_http_over_ws extension initialized. Listening on /http_over_websocket
+  File "assignmentforsaturdayAndreas.py", line 260
+    return 0
+    ^
+SyntaxError: 'return' outside function

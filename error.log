@@ -1,0 +1,126 @@
+[I 10:11:25.340 NotebookApp] [nb_conda_kernels] enabled, 1 kernels found
+[I 10:11:25.346 NotebookApp] Writing notebook server cookie secret to /run/user/1001/jupyter/notebook_cookie_secret
+[I 10:11:26.458 NotebookApp] JupyterLab extension loaded from /opt/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 10:11:26.458 NotebookApp] JupyterLab application directory is /opt/anaconda3/share/jupyter/lab
+[I 10:11:26.465 NotebookApp] [nb_conda] enabled
+[I 10:11:26.586 NotebookApp] ✓ nbpresent HTML export ENABLED
+[W 10:11:26.586 NotebookApp] ✗ nbpresent PDF export DISABLED: No module named 'nbbrowserpdf'
+[I 10:11:26.587 NotebookApp] Serving notebooks from local directory: /home/superraketen/DD2424project
+[I 10:11:26.587 NotebookApp] The Jupyter Notebook is running at:
+[I 10:11:26.587 NotebookApp] http://10.132.0.2:8888/?token=eb193b8626067fe6e8ad99b9810232c6aaed513f9ca9fd0b
+[I 10:11:26.587 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 10:11:26.590 NotebookApp] No web browser found: could not locate runnable browser.
+[C 10:11:26.590 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1001/jupyter/nbserver-1035-open.html
+    Or copy and paste one of these URLs:
+        http://10.132.0.2:8888/?token=eb193b8626067fe6e8ad99b9810232c6aaed513f9ca9fd0b
+[I 10:12:09.840 NotebookApp] 302 GET / (83.249.64.132) 1.04ms
+[I 10:12:09.878 NotebookApp] 302 GET /tree? (83.249.64.132) 0.73ms
+[W 10:12:12.153 NotebookApp] Not allowing login redirect to '/tree?'
+[I 10:12:12.154 NotebookApp] 302 POST /login?next=%2Ftree%3F (83.249.64.132) 1.75ms
+[I 10:12:12.185 NotebookApp] 302 GET / (83.249.64.132) 0.40ms
+[I 10:12:21.236 NotebookApp] Kernel started: ad7fa478-1b22-4859-b567-a6236bc51069
+[W 10:12:21.495 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (83.249.64.132) 15.94ms referer=http://34.76.8.139:8888/notebooks/assignmentforsaturdayAndreas.ipynb
+[I 10:12:22.599 NotebookApp] Adapting to protocol v5.1 for kernel ad7fa478-1b22-4859-b567-a6236bc51069
+[I 10:14:21.296 NotebookApp] Saving file at /assignmentforsaturdayAndreas.ipynb
+[I 10:16:21.681 NotebookApp] Saving file at /assignmentforsaturdayAndreas.ipynb
+[W 11:26:22.603 NotebookApp] WebSocket ping timeout after 119957 ms.
+[I 11:26:27.605 NotebookApp] Starting buffering for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[I 12:01:05.219 NotebookApp] Adapting to protocol v5.1 for kernel ad7fa478-1b22-4859-b567-a6236bc51069
+[I 12:01:05.220 NotebookApp] Restoring connection for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[W 12:02:35.223 NotebookApp] WebSocket ping timeout after 90002 ms.
+[I 12:02:40.225 NotebookApp] Starting buffering for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[I 12:15:33.121 NotebookApp] Adapting to protocol v5.1 for kernel ad7fa478-1b22-4859-b567-a6236bc51069
+[I 12:15:33.122 NotebookApp] Restoring connection for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[W 13:17:03.126 NotebookApp] WebSocket ping timeout after 119847 ms.
+[I 13:17:08.130 NotebookApp] Starting buffering for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[I 13:55:01.866 NotebookApp] Adapting to protocol v5.1 for kernel ad7fa478-1b22-4859-b567-a6236bc51069
+[I 13:55:01.867 NotebookApp] Restoring connection for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[W 13:57:36.209 NotebookApp] Notebook assignmentforsaturdayOla.ipynb is not trusted
+[W 13:57:36.295 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (83.249.64.132) 1.68ms referer=http://34.76.8.139:8888/notebooks/assignmentforsaturdayOla.ipynb
+[I 13:57:38.005 NotebookApp] Kernel started: 6756f992-0471-400c-a687-a3f667359c40
+[I 13:57:39.237 NotebookApp] Adapting to protocol v5.1 for kernel 6756f992-0471-400c-a687-a3f667359c40
+[I 14:01:09.509 NotebookApp] Saving file at /assignmentforsaturdayAndreas.ipynb
+[I 14:03:09.500 NotebookApp] Saving file at /assignmentforsaturdayAndreas.ipynb
+[I 14:05:09.443 NotebookApp] Saving file at /assignmentforsaturdayAndreas.ipynb
+[I 14:11:09.592 NotebookApp] Saving file at /assignmentforsaturdayAndreas.ipynb
+[I 14:13:09.476 NotebookApp] Saving file at /assignmentforsaturdayAndreas.ipynb
+[I 14:15:09.438 NotebookApp] Saving file at /assignmentforsaturdayAndreas.ipynb
+[I 14:17:09.573 NotebookApp] Saving file at /assignmentforsaturdayAndreas.ipynb
+[I 14:19:09.473 NotebookApp] Saving file at /assignmentforsaturdayAndreas.ipynb
+[I 14:21:09.689 NotebookApp] Saving file at /assignmentforsaturdayAndreas.ipynb
+[I 14:23:09.843 NotebookApp] Saving file at /assignmentforsaturdayAndreas.ipynb
+[I 14:25:09.704 NotebookApp] Saving file at /assignmentforsaturdayAndreas.ipynb
+[I 14:27:09.451 NotebookApp] Saving file at /assignmentforsaturdayAndreas.ipynb
+[I 14:29:09.474 NotebookApp] Saving file at /assignmentforsaturdayAndreas.ipynb
+[I 14:37:09.615 NotebookApp] Saving file at /assignmentforsaturdayAndreas.ipynb
+[I 14:39:09.518 NotebookApp] Saving file at /assignmentforsaturdayAndreas.ipynb
+[I 14:41:09.821 NotebookApp] Saving file at /assignmentforsaturdayAndreas.ipynb
+[I 14:43:09.822 NotebookApp] Saving file at /assignmentforsaturdayAndreas.ipynb
+[I 14:45:09.802 NotebookApp] Saving file at /assignmentforsaturdayAndreas.ipynb
+[I 14:47:09.543 NotebookApp] Saving file at /assignmentforsaturdayAndreas.ipynb
+[I 14:57:09.682 NotebookApp] Saving file at /assignmentforsaturdayAndreas.ipynb
+[I 14:58:54.582 NotebookApp] Starting buffering for 6756f992-0471-400c-a687-a3f667359c40:86787223306e40a48c8a4c8097f08b1a
+[I 14:59:09.641 NotebookApp] Saving file at /assignmentforsaturdayAndreas.ipynb
+[I 15:01:09.644 NotebookApp] Saving file at /assignmentforsaturdayAndreas.ipynb
+[I 15:19:10.072 NotebookApp] Saving file at /assignmentforsaturdayAndreas.ipynb
+[W 15:59:01.870 NotebookApp] WebSocket ping timeout after 119852 ms.
+[I 15:59:06.872 NotebookApp] Starting buffering for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[I 16:13:16.628 NotebookApp] Adapting to protocol v5.1 for kernel ad7fa478-1b22-4859-b567-a6236bc51069
+[I 16:13:16.628 NotebookApp] Restoring connection for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[W 16:15:46.632 NotebookApp] WebSocket ping timeout after 119873 ms.
+[I 16:15:51.633 NotebookApp] Starting buffering for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[I 16:18:04.683 NotebookApp] Adapting to protocol v5.1 for kernel ad7fa478-1b22-4859-b567-a6236bc51069
+[I 16:18:04.684 NotebookApp] Restoring connection for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[W 16:31:04.686 NotebookApp] WebSocket ping timeout after 119893 ms.
+[I 16:31:09.688 NotebookApp] Starting buffering for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[I 17:21:18.273 NotebookApp] Adapting to protocol v5.1 for kernel ad7fa478-1b22-4859-b567-a6236bc51069
+[I 17:21:18.274 NotebookApp] Restoring connection for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[W 17:22:48.274 NotebookApp] WebSocket ping timeout after 90000 ms.
+[I 17:22:53.276 NotebookApp] Starting buffering for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[I 17:57:17.076 NotebookApp] Adapting to protocol v5.1 for kernel ad7fa478-1b22-4859-b567-a6236bc51069
+[I 17:57:17.077 NotebookApp] Restoring connection for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[W 17:58:47.077 NotebookApp] WebSocket ping timeout after 90000 ms.
+[I 17:58:52.079 NotebookApp] Starting buffering for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[I 19:12:50.278 NotebookApp] Adapting to protocol v5.1 for kernel ad7fa478-1b22-4859-b567-a6236bc51069
+[I 19:12:50.279 NotebookApp] Restoring connection for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[W 19:14:20.280 NotebookApp] WebSocket ping timeout after 90000 ms.
+[I 19:14:25.282 NotebookApp] Starting buffering for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[I 19:32:47.041 NotebookApp] 302 GET / (54.148.144.57) 1.02ms
+[I 21:00:49.205 NotebookApp] Adapting to protocol v5.1 for kernel ad7fa478-1b22-4859-b567-a6236bc51069
+[I 21:00:49.206 NotebookApp] Restoring connection for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[W 21:02:19.208 NotebookApp] WebSocket ping timeout after 90001 ms.
+[I 21:02:24.211 NotebookApp] Starting buffering for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[I 22:12:17.162 NotebookApp] Adapting to protocol v5.1 for kernel ad7fa478-1b22-4859-b567-a6236bc51069
+[I 22:12:17.162 NotebookApp] Restoring connection for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[W 22:14:47.163 NotebookApp] WebSocket ping timeout after 119910 ms.
+[I 22:14:52.166 NotebookApp] Starting buffering for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[I 00:00:47.184 NotebookApp] Adapting to protocol v5.1 for kernel ad7fa478-1b22-4859-b567-a6236bc51069
+[I 00:00:47.185 NotebookApp] Restoring connection for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[W 00:02:17.185 NotebookApp] WebSocket ping timeout after 90000 ms.
+[I 00:02:22.189 NotebookApp] Starting buffering for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[I 01:48:48.246 NotebookApp] Adapting to protocol v5.1 for kernel ad7fa478-1b22-4859-b567-a6236bc51069
+[I 01:48:48.247 NotebookApp] Restoring connection for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[I 01:48:51.473 NotebookApp] 302 GET / (209.17.97.58) 0.70ms
+[W 01:50:18.248 NotebookApp] WebSocket ping timeout after 90000 ms.
+[I 01:50:23.250 NotebookApp] Starting buffering for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[I 03:36:48.398 NotebookApp] Adapting to protocol v5.1 for kernel ad7fa478-1b22-4859-b567-a6236bc51069
+[I 03:36:48.399 NotebookApp] Restoring connection for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[W 03:38:18.400 NotebookApp] WebSocket ping timeout after 90001 ms.
+[I 03:38:23.402 NotebookApp] Starting buffering for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[I 05:15:19.961 NotebookApp] Adapting to protocol v5.1 for kernel ad7fa478-1b22-4859-b567-a6236bc51069
+[I 05:15:19.962 NotebookApp] Restoring connection for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[W 05:16:49.965 NotebookApp] WebSocket ping timeout after 90002 ms.
+[I 05:16:54.967 NotebookApp] Starting buffering for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[I 07:03:21.879 NotebookApp] Adapting to protocol v5.1 for kernel ad7fa478-1b22-4859-b567-a6236bc51069
+[I 07:03:21.880 NotebookApp] Restoring connection for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[W 07:05:51.881 NotebookApp] WebSocket ping timeout after 119922 ms.
+[I 07:05:56.883 NotebookApp] Starting buffering for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[I 08:51:52.850 NotebookApp] Adapting to protocol v5.1 for kernel ad7fa478-1b22-4859-b567-a6236bc51069
+[I 08:51:52.851 NotebookApp] Restoring connection for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[W 08:53:22.853 NotebookApp] WebSocket ping timeout after 90002 ms.
+[I 08:53:27.855 NotebookApp] Starting buffering for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
+[I 10:10:00.595 NotebookApp] Adapting to protocol v5.1 for kernel ad7fa478-1b22-4859-b567-a6236bc51069
+[I 10:10:00.596 NotebookApp] Restoring connection for ad7fa478-1b22-4859-b567-a6236bc51069:f75fec4abed348b4b3fa6387d86428ef
