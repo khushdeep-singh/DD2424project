@@ -57,6 +57,14 @@ I also found out how to create two networks with the same initial weights. torch
 
 For the Constant Learning Rate I used the same momentum and weight-decay I found best results for when doing the streamline hyperparameter setup. 0.95 momentum and 1e-9 weight-decay. 
 
+### 21 May 2019 
+
+I did one more run with piecewise constant learning rate. I have a thesis that creating a new optimizer and changing the learning-rate at the same time might zero the current training momentum and thus making the SGD get stuck more easily. 
+
+Instead I will try to change the learning-rate through the optimizer directly instead of creating a new one. I also want to try to add more regularization and draw down the moving_average_fraction for the batch-normalization from 0.95 to at least 0.5. 
+
+I also want to increase the weight-decay and see what that does to the results. My guess is that because the ResNet56 is so deep it has problems with vanishing gradients. I am not sure if the vanishing gradient is helped by a larger regularization... 
+
 ### things to try for the SuperConvergence 
 
 higher maximum learning rate 
